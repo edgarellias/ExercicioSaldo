@@ -1,12 +1,9 @@
 import java.util.Scanner;
-
 public class Cliente {
     String name;
     String tipoConta;
     double saldoInicial;
 
-
-    Scanner entrada = new Scanner(System.in);
     public void ApresentarDados(){
         System.out.println("Nome: " + name);
         System.out.println("Tipo de conta: " + tipoConta);
