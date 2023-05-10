@@ -15,13 +15,13 @@ public class Main {
         cliente.tipoConta = "Corrente";
 
         cliente.ApresentarDados();
-        System.out.println("Escolha uma opção: ");
-        System.out.println("1 - Consultar saldos");
-        System.out.println("2 - Receber valor");
-        System.out.println("3 - Transferir valor");
 
-        System.out.println("4 - Sair");
         while(escolha != 4) {
+            System.out.println("Escolha uma opção: ");
+            System.out.println("1 - Consultar saldos");
+            System.out.println("2 - Receber valor");
+            System.out.println("3 - Transferir valor");
+            System.out.println("4 - Sair");
             escolha = entrada.nextInt();
             switch (escolha) {
                 case 1:
